@@ -224,3 +224,15 @@ wrapper{
     background-size: cover;
     padding: 16.875rem 0 9.375rem;
 }
+
+/* About section design */
+.about-section{
+    background: var(--white-color);
+}
+.about-section .card,
+.about-section .card img{
+    border-radius: 0.625rem;
+}
+.about-section .text-sec{
+    padding-left: 2rem;
+}
