@@ -375,6 +375,7 @@ wrapper{
 .newsletter{
     width: 60%;
     margin: 0 auto;
+    padding-bottom: 50px;
 }
 
 .newsletter .form-control{
@@ -395,4 +396,25 @@ wrapper{
     outline: none;
     box-shadow: none;
     border-color: var(--primary-color);
+}
+
+/* Footer Section Design */
+.footer{
+    background: var(--primary-color);
+}
+
+.footer .footer-link{
+    font-size: 1rem;
+    color: var(--white-color);
+    padding: 0 1.875rem;
+}
+
+.footer .footer-link:hover{
+    color: var(--white-color) !important;
+}
+
+.footer a i{
+    font-size: 1.5rem;
+    color: var(--white-color);
+    padding: 0 1rem;
 }

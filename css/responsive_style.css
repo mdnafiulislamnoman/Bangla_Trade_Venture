@@ -61,6 +61,11 @@
         width: 100%;
         margin-top: 1rem;
     }
+    /* Footerlink */
+    .footer .footer-link,
+    .footer a i{
+        padding: 0 0.7rem;
+    }
 }
 
 @media (max-width:330px){
