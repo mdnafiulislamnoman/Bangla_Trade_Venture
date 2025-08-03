@@ -368,5 +368,31 @@ wrapper{
 
 .faq{
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
+}
+
+/* Form control */
+.newsletter{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.newsletter .form-control{
+    height: 3.225rem;
+    padding: 0 1.25rem;
+    font-size: 0.875rem;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    border: 0.1875rem solid var(--text-color);
+    color: var(--black-color);
+    font-weight: 700;
+}
+
+.newsletter .form-control:hover,
+.newsletter .form-control:focus{
+    outline: none;
+    box-shadow: none;
+    border-color: var(--primary-color);
 }
